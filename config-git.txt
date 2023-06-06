@@ -1,5 +1,3 @@
 git config --global user.name [quote]username[quote]
 git config --global user.email [quote}email@domain.com[quote]
 
-When pushing, your token is your password.
-
