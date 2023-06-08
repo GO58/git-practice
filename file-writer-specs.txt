@@ -1,0 +1,24 @@
+File writer program
+
+Intended use
+
+To keep an updated list of hyperlinks on the local computer where I am working, modified for specificly where I'm working.
+
+
+Steps the program should take
+1	look for a local html file called work-links.html or create one if not found
+2	read in the current list of links and notes
+3	ask user to add, subtract or modify the current list of notes
+4	move to next step based on user input
+5	if adding a link
+		a) ask for html link and link name
+		b) format the text into a  link
+	if subtracting
+		A) delete the object containing that link's data
+	if modify
+		a)ask for what link to modify
+		b)get replacement data
+		c)replace the data in the link object
+6	When done, convert all link data into a link and write them into the file
+7	exit program
+
