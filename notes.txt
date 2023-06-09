@@ -1,11 +1,4 @@
 Guide to contribute to opensource projects - https://opensource.guide/how-to-contribute/
 
-git commit -m "commit message"
-
-git push origin main
-or 
-git push
-if path is already established
-
 
 When pushing, your token is your password.

@@ -1,0 +1,32 @@
+git init:
+	creates a new Git repository
+git status:
+	inspects the contents of the working directory and staging area
+git add:
+	adds files from working directory to staging area
+git diff:
+	shows the difference between working directory and staging area
+git commit:
+	permanently stores file changes from the staging area in the repository
+git log:
+	shows list of all previous commits
+git branch:
+	lists all a git project's branches
+git branch branch_name:
+	creates new branch with name branch_name
+git checkout branch_name:
+	switches to named branch
+git merge branch_name:
+	joins named branch into current branch
+git branch -d branch_name:
+	deletes named branch (capital -D if branch never merged)
+git clone:
+	creates a local copy of a remote
+git remote -v:
+	lists a git projet's remotes
+git fetch:
+	fetches (updates) work from the remote to local copy
+git merge origin/master:
+	merges origin/master into your local branch
+git push origin <branch name>:
+	pushes local branch to the origin remote

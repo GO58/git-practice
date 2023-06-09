@@ -1,0 +1,44 @@
+cd (path)
+	change directory (.. to move back up/ . to reference current dir)
+pwd
+	Print working directory
+mkdir (name)
+	make directory
+ls
+	list (-a for all, -l for long, -t for timeSort
+touch (name)
+	create new file
+cp (fileName newFileName destinationIfElsewhere)
+	copy
+mv (name location)
+	move
+rm
+rm -r
+	remove -r to remove directory
+>>
+	redirect output and add append it to file
+>
+	redirect output and overwrite file
+|
+	pipe redirect output to next command
+cat
+	display contents of file
+grep
+	search files for patterns
+	example( grep 'sonny' names.txt) returns all lines with 'sonny'
+	also works with reg expressions
+	-i for case insensitive
+	-R to search all files in a directory
+env
+	list of environment
+ailas
+	create shortcuts to commands, or complex commands
+./bash_profile
+	file to save preferences
+history
+	history of commands during session
+export
+	create a variable usible by all children
+
+
+TODO --- scripts
